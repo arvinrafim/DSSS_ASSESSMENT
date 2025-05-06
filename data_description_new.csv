@@ -8,7 +8,7 @@ pedestrian_crossing_human_control,Independent,Categorical,controlled by school o
 pedestrian_crossing_physical_facilities,Independent,Categorical,"zebra cross, pelican crossing, etc"
 light_conditions,Independent,Categorical,"Daylight or darkness. If it is dark, then there is explanation of  lights"
 weather_conditions,Independent,Categorical, "Weather Condition at time of accident"
-road_surface_conditions,Independent,Categorical,
-special_conditions_at_site,Independent,Categorical,"Road obstacle (works, mud, oil spillage, etc)"
+road_surface_conditions,Independent,Categorical, "Road surface conditions (dry, wet, snow, etc)"
+special_conditions_at_site,Independent,Categorical,"Road obstacle (roadworks, auto traffic signal)"
 carriageway_hazards,Independent,Categorical,Hazards (vehicle or animal blocking road)
 urban_or_rural_area,Independent,Categorical, "Urban or Rural location of accident"
