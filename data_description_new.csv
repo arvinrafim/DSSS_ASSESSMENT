@@ -1,0 +1,14 @@
+Variable Name,Variable Type,Data Type,Description
+accident_severity,Dependent,Categorical,"Accident Severity, 1 means fatal, 2 means serious, 3 means slight"
+day_of_week,Independent,Categorical,Day in a week
+road_type,Independent,Categorical,"Roundabout, single carriageway, dual carriageway, etc"
+speed_limit,Independent,Numeric,"20,30,40,50,60,70 are the only valid speed limits on public highways"
+junction_detail,Independent,Categorical,Shape of Junction
+pedestrian_crossing_human_control,Independent,Categorical,controlled by school or person
+pedestrian_crossing_physical_facilities,Independent,Categorical,"zebra cross, pelican crossing, etc"
+light_conditions,Independent,Categorical,"Daylight or darkness. If it is dark, then there is explanation of  lights"
+weather_conditions,Independent,Categorical,
+road_surface_conditions,Independent,Categorical,
+special_conditions_at_site,Independent,Categorical,"Road obstacle (works, mud, oil spillage, etc)"
+carriageway_hazards,Independent,Categorical,Hazards (vehicle or animal blocking road)
+urban_or_rural_area,Independent,Categorical,
